@@ -7,68 +7,134 @@
     <link rel="stylesheet" href="style.css">
   </head>
   <body>
-    <header class="hero">
+    <header class="hero" data-animate="reveal">
       <div class="hero-text">
         <h1>Basketball: Bewegungsenergie, Teamgeist und Korbzauber</h1>
         <p class="subtitle">Eine sportliche Seite über die Entwicklung, Regeln, Wettbewerbe und berühmte internationale Stars des Basketballs.</p>
       </div>
+      <div class="ball" aria-hidden="true"></div>
     </header>
 
     <main>
-      <section class="intro">
+      <section class="intro" data-animate="reveal" data-delay="60">
         <p>Basketball ist eine dynamische Mannschaftssportart, die weltweit in Hallen, Freiluftplätzen und bei großen internationalen Wettbewerben gespielt wird. Durch den schnellen Wechsel zwischen Angriff und Verteidigung, das Dribbeln, Passen und erfolgreiche Werfen in den Korb prägt Basketball eine starke, athletische Ästhetik und fasziniert Millionen von Fans.</p>
       </section>
 
-      <div class="grid">
-        <section class="card">
-          <h2>Aussehen</h2>
-          <p>Das typische Erscheinungsbild von Basketball ist kraftvoll und kontrastreich: ein orange-schwarzer Ball mit markanten Linien, ein glänzender Holzboden oder Asphaltfeld, leuchtende Spieltrikots und ein hochhängender Korb mit Netz. Die Optik ist geprägt von klaren Linien, schnellen Bewegungen und einer Bühne, auf der Athleten ihre Sprungkraft und Präzision zeigen.</p>
-          <ul>
-            <li>Orange & schwarz als klassische Ballfarben</li>
-            <li>Korbhöhe 3,05 m auf einem rechteckigen Feld</li>
-            <li>Teamtrikots mit Nummern und starken Kontrastfarben</li>
-          </ul>
-        </section>
+      <section class="history" data-animate="reveal" data-delay="120">
+        <h2>Kurze Geschichte</h2>
+        <p>Basketball wurde 1891 von Dr. James Naismith erfunden, um ein sicheres Hallenspiel für kalte Winter zu schaffen. Die ersten Regeln verwendeten aufgehängte Körbe; daraus entwickelte sich schnell ein strukturiertes Spiel mit Ligen, internationalen Wettbewerben und einer starken globalen Anhängerschaft.</p>
+        <p>Wichtige Meilensteine: die Aufnahme in die Olympischen Spiele 1936, die Gründung der NBA und die weltweite Verbreitung durch Reisen, Medien und Nachwuchsförderung.</p>
+        <figure class="history-img">
+          <img src="https://images.unsplash.com/photo-1533105074-cb7c9be3b5f3?auto=format&fit=crop&w=1200&q=80" alt="Historisches Basketballbild">
+          <figcaption>Erste Basketballspiele in Hallen legten den Grundstein</figcaption>
+        </figure>
+      </section>
 
-        <section class="card">
-          <h2>Herkunft</h2>
-          <p>Basketball wurde 1891 von Dr. James Naismith in Springfield, Massachusetts, erfunden. Er suchte eine Hallensportart für kalte Wintermonate und entwickelte 13 erste Regeln, bei denen ein Ball in aufgehängte Pfirsichkörbe geworfen werden musste. Aus diesem einfachen Spiel entstand schnell ein weltweiter Sport, der bereits 1936 olympisch wurde und sich zur globalen Lieblingssportart entwickelte.</p>
-          <ul>
-            <li>Erfinder: James Naismith</li>
-            <li>Erstes Spiel: 6. Dezember 1891</li>
-            <li>Olympische Premiere: 1936 in Berlin</li>
-          </ul>
-        </section>
+      <section class="gallery" data-animate="reveal" data-delay="180">
+        <h2>Galerie</h2>
+        <p class="gallery-desc">Ein paar Eindrücke aus Spiel, Training und Stadionatmosphäre.</p>
+        <div class="gallery-grid">
+          <figure class="image-card" data-animate="reveal" data-delay="220">
+            <img src="https://images.unsplash.com/photo-1517649763962-0c623066013b?auto=format&fit=crop&w=1200&q=80" alt="Basketball nahaufnahme">
+            <figcaption>Der klassische Ball: Energie und Textur</figcaption>
+          </figure>
 
-        <section class="card">
-          <h2>Nutzung</h2>
-          <p>Basketball wird sowohl im Freizeitbereich als auch als Profi- und Nationalsport betrieben. Teams nutzen ihn als Wettkampfspiel in Ligen und Turnieren, aber auch als Fitness-, Freizeit- und Schulaktivität. Die Regeln sichern Fairness und Tempo, während Wettbewerbe dem Sport eine internationale Bühne geben.</p>
-          <h3>Spielregeln</h3>
-          <ul>
-            <li>5 Spieler pro Mannschaft auf dem Feld</li>
-            <li>Dribbeln ist Pflicht, sobald ein Spieler den Ball hält</li>
-            <li>Punkte: 2 für Korb, 3 für Dreier, 1 für Freiwurf</li>
-            <li>4 Viertel, jeweils 10 oder 12 Minuten Spielzeit</li>
-            <li>Fouls limitieren Körperkontakt und erlauben Freiwürfe</li>
-          </ul>
-          <h3>Wettbewerbe</h3>
-          <ul>
-            <li>NBA als weltbeste Liga</li>
-            <li>FIBA-Weltmeisterschaft und Olympische Spiele</li>
-            <li>EuroLeague, BBL und nationale Ligen</li>
-          </ul>
-          <h3>Top 3 internationale Spieler</h3>
-          <ul>
-            <li>LeBron James – vielseitiger Leader und Ausnahmeathlet</li>
-            <li>Giannis Antetokounmpo – physische Dominanz und Allround-Talent</li>
-            <li>Luka Dončić – kreative Spielmacherqualitäten und Scoring</li>
-          </ul>
-        </section>
-      </div>
+          <figure class="image-card" data-animate="reveal" data-delay="280">
+            <img src="https://images.unsplash.com/photo-1521412644187-c49fa049e84d?auto=format&fit=crop&w=1200&q=80" alt="Spielszene in der Halle">
+            <figcaption>Action auf dem Feld</figcaption>
+          </figure>
+
+          <figure class="image-card" data-animate="reveal" data-delay="340">
+            <img src="https://images.unsplash.com/photo-1545532654-3fbb6f5d2f10?auto=format&fit=crop&w=1200&q=80" alt="Fantribüne">
+            <figcaption>Stimmung und Fans</figcaption>
+          </figure>
+
+          <figure class="image-card" data-animate="reveal" data-delay="400">
+            <img src="https://images.unsplash.com/photo-1502877338535-766e1452684a?auto=format&fit=crop&w=1200&q=80" alt="Trainingseinheit">
+            <figcaption>Trainingsfokus und Technik</figcaption>
+          </figure>
+            <header class="hero" data-animate="reveal">
+              <div class="hero-text">
+                <h1>Basketball: Bewegungsenergie, Teamgeist und Korbzauber</h1>
+                <p class="subtitle">Eine sportliche Seite über die Entwicklung, Regeln, Wettbewerbe und berühmte internationale Stars des Basketballs.</p>
+                <a class="highlight" href="#gallery">Galerie ansehen</a>
+              </div>
+              <div class="ball" aria-hidden="true"></div>
+            </header>
+
+            <main>
+              <section class="intro" data-animate="reveal">
+                <p>Basketball ist eine dynamische Mannschaftssportart, die weltweit in Hallen, Freiluftplätzen und bei großen internationalen Wettbewerben gespielt wird. Durch den schnellen Wechsel zwischen Angriff und Verteidigung, das Dribbeln, Passen und erfolgreiche Werfen in den Korb prägt Basketball eine starke, athletische Ästhetik und fasziniert Millionen von Fans.</p>
+              </section>
+
+              <section class="history" data-animate="reveal" data-delay="120">
+                <h2>Kurze Geschichte</h2>
+                <p>Basketball wurde 1891 von Dr. James Naismith erfunden, um ein sicheres Hallenspiel für kalte Winter zu schaffen. Die ersten Regeln verwendeten aufgehängte Körbe; daraus entwickelte sich schnell ein strukturiertes Spiel mit Ligen, internationalen Wettbewerben und einer starken globalen Anhängerschaft.</p>
+                <p>Wichtige Meilensteine: die Aufnahme in die Olympischen Spiele 1936, die Gründung der NBA und die weltweite Verbreitung durch Reisen, Medien und Nachwuchsförderung.</p>
+                <figure class="history-img">
+                  <img src="https://images.unsplash.com/photo-1533105074-cb7c9be3b5f3?auto=format&fit=crop&w=1200&q=80" alt="Historisches Basketballbild">
+                  <figcaption>Erste Basketballspiele in Hallen legten den Grundstein</figcaption>
+                </figure>
+              </section>
+
+              <section class="gallery" id="gallery" data-animate="reveal" data-delay="80">
+                <h2>Galerie</h2>
+                <p class="gallery-desc">Ein paar Eindrücke aus Spiel, Training und Stadionatmosphäre.</p>
+                <div class="gallery-grid">
+                  <figure class="image-card" data-animate="reveal" data-delay="140">
+                    <img src="https://images.unsplash.com/photo-1517649763962-0c623066013b?auto=format&fit=crop&w=1200&q=80" alt="Basketball nahaufnahme">
+                    <figcaption>Der klassische Ball: Energie und Textur</figcaption>
+                  </figure>
+
+                  <figure class="image-card" data-animate="reveal" data-delay="200">
+                    <img src="https://images.unsplash.com/photo-1521412644187-c49fa049e84d?auto=format&fit=crop&w=1200&q=80" alt="Spielszene in der Halle">
+                    <figcaption>Action auf dem Feld</figcaption>
+                  </figure>
+
+                  <figure class="image-card" data-animate="reveal" data-delay="260">
+                    <img src="https://images.unsplash.com/photo-1545532654-3fbb6f5d2f10?auto=format&fit=crop&w=1200&q=80" alt="Fantribüne">
+                    <figcaption>Stimmung und Fans</figcaption>
+                  </figure>
+
+                  <figure class="image-card" data-animate="reveal" data-delay="320">
+                    <img src="https://images.unsplash.com/photo-1502877338535-766e1452684a?auto=format&fit=crop&w=1200&q=80" alt="Trainingseinheit">
+                    <figcaption>Trainingsfokus und Technik</figcaption>
+                  </figure>
+                </div>
+              </section>
+
+              <section class="more" data-animate="reveal" data-delay="100">
+                <div class="grid">
+                  <section class="card">
+                    <h2>Training & Technik</h2>
+                    <p>Regelmäßiges Training verbessert Wurfgenauigkeit, Kondition und Teamverständnis. Techniken wie Fußarbeit, Ballhandling und Spielverständnis sind zentral für langfristigen Erfolg.</p>
+                    <ul>
+                      <li>Dribbling-Drills für Kontrolle und Tempo</li>
+                      <li>Wurftraining: Form, Rhythmus, Distanz</li>
+                      <li>Teamtaktik: Pick-and-Roll, Switch-Defense</li>
+                    </ul>
+                  </section>
+
+                  <section class="card">
+                    <h2>Legendäre Spiele</h2>
+                    <p>Einige Begegnungen schreiben Geschichte — enge Finals, späte Comebacks und unglaubliche Einzelleistungen prägen die Legenden des Sports.</p>
+                    <ul>
+                      <li>Historische Finals und epische Comebacks</li>
+                      <li>Einzelperformances, die Spiele entschieden</li>
+                      <li>Momente der Fairness und des Teamspirits</li>
+                    </ul>
+                  </section>
+
+                  <section class="card">
+                    <h2>Aktuelle Wettbewerbe</h2>
+                    <p>Die Saison bringt Ligaspiele, Pokalrunden und internationale Turniere. Fans verfolgen Spielpläne, Transfers und junge Talente, die nachrücken.</p>
+                    <h3>Wichtig</h3>
+                    <ul>
+                      <li>NBA, EuroLeague, nationale Meisterschaften</li>
+                      <li>FIBA-Turniere und olympische Wettbewerbe</li>
+                      <li>Nachwuchsförderung und Jugendligen</li>
+                    </ul>
+                  </section>
+                </div>
+              </section>
     </main>
-
-    <footer>
-      <p>Basketball verbindet Geschichte, klare Regeln und globale Wettbewerbe zu einer kraftvollen Sportart voller Leidenschaft und Tempo.</p>
-    </footer>
-  </body>
-</html>
