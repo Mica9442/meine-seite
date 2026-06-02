@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="120" height="120" viewBox="0 0 120 120">
+  <defs>
+    <linearGradient id="g1" x1="0" x2="1">
+      <stop offset="0" stop-color="#f3c623"/>
+      <stop offset="1" stop-color="#f0a500"/>
+    </linearGradient>
+  </defs>
+  <rect width="120" height="120" rx="18" fill="#552583" />
+  <circle cx="60" cy="38" r="26" fill="url(#g1)" />
+  <text x="60" y="78" font-family="Inter, sans-serif" font-size="20" fill="#fff" font-weight="700" text-anchor="middle">LAKERS</text>
+</svg>

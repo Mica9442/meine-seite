@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="600" viewBox="0 0 900 600">
+  <rect width="900" height="600" fill="#f7f5f2" />
+  <g transform="translate(50,50)">
+    <rect width="800" height="500" rx="12" fill="#fff" stroke="#e0e7ef" />
+    <g transform="translate(30,30)">
+      <rect width="200" height="140" rx="8" fill="#fef3e6" />
+      <rect x="220" width="420" height="140" rx="8" fill="#eef6ff" />
+      <text x="110" y="78" text-anchor="middle" font-family="Inter, sans-serif" font-size="16" fill="#333">1920s Spiel</text>
+    </g>
+  </g>
+</svg>

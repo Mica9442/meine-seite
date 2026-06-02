@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="120" height="120" viewBox="0 0 120 120">
+  <rect width="120" height="120" rx="18" fill="#a80f1b" />
+  <circle cx="30" cy="36" r="18" fill="#fff2f2" opacity="0.06" />
+  <text x="60" y="70" font-family="Inter, sans-serif" font-size="20" fill="#fff" font-weight="800" text-anchor="middle">BULLS</text>
+</svg>

@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="600" viewBox="0 0 900 600">
+  <rect width="900" height="600" fill="#efe9e1" />
+  <g transform="translate(60,60)">
+    <rect width="780" height="480" rx="18" fill="#d7e6f6" />
+    <g transform="translate(40,40)">
+      <rect width="320" height="240" rx="10" fill="#fff" />
+      <rect x="340" width="360" height="240" rx="10" fill="#fff" />
+      <circle cx="160" cy="140" r="48" fill="#f3c623" />
+      <text x="160" y="148" text-anchor="middle" font-family="Inter, sans-serif" font-size="20" fill="#2b2b2b">Historisch</text>
+    </g>
+  </g>
+</svg>
